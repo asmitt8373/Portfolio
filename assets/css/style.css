@@ -3,7 +3,7 @@
   --black:rgb(5, 5, 5);
 }
 body {
-  background-image: url("/Users/austinsmittle/ucsd/projects/Portfolio/images/000320500005.JPG");
+  background-image: url("./images/000320500005.JPG");
   background-size: cover;
 }
 .main-header {
