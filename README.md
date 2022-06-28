@@ -1,1 +1,1 @@
-# Portfolio
+this is a website of my portfolio, might not look like much but still have plenty of stuff to be added in the near future.  as you can see theres ways to contact me or find out about me and some of my future work.
