@@ -3,7 +3,7 @@
   --black:rgb(5, 5, 5);
 }
 body {
-  background-image: url("./images/000320500005.JPG");
+  background-image: url("/assets/images/000320500005.JPG");
   background-size: cover;
 }
 .main-header {
