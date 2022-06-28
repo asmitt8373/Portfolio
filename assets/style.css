@@ -1,0 +1,127 @@
+:root {
+  --blue:rgb(135,206,235);
+  --black:rgb(5, 5, 5);
+}
+body {
+  background-image: url("/Users/austinsmittle/ucsd/projects/Portfolio/images/000320500005.JPG");
+  background-size: cover;
+}
+.main-header {
+  padding: 0 0 10 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: transparent;
+}
+.main-header h1 {
+  padding: 0 15px 0 60px;
+  margin:0 0 0 0;
+  background-color: var(--blue);
+  opacity: 80%;
+  display: inline-block;
+  font-size: 60px;
+}
+.main-header div {
+  padding: 0 20px 0 0 ;
+  float: right; 
+  font-size: 20px;
+  background-color: var(--blue);
+  opacity: 80%;
+}
+.main-header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+a { color: var(--black);
+  text-align:center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.picture {
+  width: 500px;
+  height: 400px;
+  opacity: .9;
+  position: relative;
+  left: 40%;
+}
+.aboutme {
+  position:relative;
+  left: 100px;
+  bottom: 200px;
+  width: 500px;
+  font-size: 30;
+  margin:0 0 0 0;
+}
+#aboutme {
+  font-size: 25px;
+  left: 40px;
+  top: 80px;
+  display: block;
+  overflow: hidden;
+}
+.placeholder{
+  width: 300px;
+  height: 300px;
+}
+.placeholder1{
+position: relative;
+bottom: 200px;
+left: 10%;
+width: 1150px;
+
+}
+#working {
+  width: 150px;
+  position:relative;
+  left:60px;
+  bottom: 50px;
+}
+#work {
+  position: relative;
+  left: 40px;
+  bottom: 150px;
+  font-size: 30px;
+}
+#contact {
+  text-decoration: underline;
+}
+.contact-me {
+  position: relative;
+  left: 40%;
+  width: 300px;
+  height: 170px;
+  background-color: var(--blue);
+  opacity: 80%;
+  text-align: center;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 1300px) {
+  body{
+    background-color: blue;
+    background-image: none;
+  }
+  h1{
+    position: relative;
+    font-size: 30px;
+  }
+  .main-header div ul li{
+    position: relative;
+  
+  }
+  div{
+    position: relative;
+  }
+  .picture {display: none;}
+  .aboutme{
+    position: relative;
+   top: 50px;
+  }
+  #working{ 
+    position: relative;
+    top: 200px;
+  }
+  .placeholder1{
+    width: 300px;
+    position: relative;
+    left: 40%;
+    top: 10px;
+  }
+}
